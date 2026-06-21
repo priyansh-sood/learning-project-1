@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dine & Divide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Dine & Divide 🍽️</h1>
+  <div class="container">
+    <section class="card">
+      <h2>Weekly Meal Planner</h2>
+      <div id="mealList"></div>
+    </section>
+
+    <section class="card">
+      <h2>Expense Splitter</h2>
+      <div class="row">
+        <input id="name" placeholder="Name">
+        <input id="amount" type="number" placeholder="Amount">
+        <button id="addBtn">Add</button>
+      </div>
+      <table>
+        <thead><tr><th>Name</th><th>Amount</th><th>Status</th><th>Delete</th></tr></thead>
+        <tbody id="expenseBody"></tbody>
+      </table>
+    </section>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
